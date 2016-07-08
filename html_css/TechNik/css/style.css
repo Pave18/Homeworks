@@ -1,0 +1,158 @@
+.container {
+	width:950px;
+	margin:0px auto;
+}
+
+.head {
+	width:100%;
+	min-height:110px;
+	background-color:#000;
+}
+
+.logo {
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+
+.top-menu {
+	width:300px;
+	min-height:60px;
+	background-color:orange;
+	margin:10px 0px 0px 35px;
+	float:left;
+}
+
+.icons {
+	width:80px;
+	min-height:20px;
+	float:right;
+	margin:5px 5px 0px 0px;
+}
+.icons div.img
+{
+	float: left;
+	margin:5px;
+}
+
+.menu {
+	min-height:20px;
+	background:red;
+	float:right;
+}
+.menu ul li {
+	float:left;
+	margin:0px 10px 0px 0px;
+}
+
+.menu ul li a{
+		float:left;
+
+	color:#fff;
+	text-decoration:none;
+	font-size:16px;
+	font-family:Myriad Pro Regular;
+}
+
+
+.contact {
+	width:370px;
+	min-height:60px;
+	background-color:orange;
+	margin:10px 0px 0px 35px;
+	float:left;
+}
+
+
+.tech {
+	width:100%;
+	min-height:107px;
+	margin:170px 0 0 0;
+	background: url(../images/bg-tech.png) repeat-x;
+}
+
+.t-info {
+	width:95px;
+	min-height:95px;
+	background:red;
+	float:left;
+	margin:0px 20px 0 0;
+	/**/position:relative;
+}
+
+.star {
+	width:30px;
+	min-height:30px;
+	background:yellow;
+	position:absolute;
+	top:-10px;
+	right:-10px;
+	z-index:10;
+	border-radius:15px 5px;
+}
+
+
+.t-info-last {
+	width:95px;
+	min-height:95px;
+	background:red;
+	float:left;
+	margin:0px 0px 0 0;
+}
+.t-info div.img {
+	width:100%;
+	min-height:80px;
+	background:#000;
+}
+
+.t-info div.link {
+	text-align:center;
+} 
+
+.slider {
+	width:100%;
+	min-height:205px;
+	margin:50px 0 0 0;
+
+}
+
+.bg-l {
+	width:7px;
+	min-height:205px;
+	float:left;
+	background: url(../images/slider-bg-l.png) no-repeat;
+}
+
+.bg-c {
+	width:600px;
+	min-height:205px;
+	float:left;
+	background: url(../images/slider-bg-c.png) repeat-x;
+}
+
+
+
+.w100-head {
+	width:100%;
+	min-height:120px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background:url(../images/slider-bg-c.png) repeat-x 0px -90px;
+	z-index:99;
+}
+
+.top {
+	width:50px;
+	min-height:50px;
+	background:red;
+	position:fixed;
+	right:20px;
+	bottom:20px;
+}
+
+
+
+
+
+
+
