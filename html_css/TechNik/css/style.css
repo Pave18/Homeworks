@@ -1,158 +1,294 @@
+.w100-head {
+	width:100%;
+	min-height:110px;
+}
+
 .container {
-	width:950px;
+	width:940px;
 	margin:0px auto;
 }
 
 .head {
 	width:100%;
 	min-height:110px;
-	background-color:#000;
+	background-color:none;
+	float:left;
 }
-
 .logo {
-	margin:0px 0px 0px 0px;
+	width:20%;
 	float:left;
+	margin:9px 0px 0px 0px;
 }
-
 .top-menu {
-	width:300px;
+	width:40%;
 	min-height:60px;
-	background-color:orange;
-	margin:10px 0px 0px 35px;
+	margin:10px 2%;
 	float:left;
+	background: none;
 }
 
 .icons {
-	width:80px;
+	width:21%;
 	min-height:20px;
 	float:right;
-	margin:5px 5px 0px 0px;
+	margin:1% 1%;
 }
-.icons div.img
-{
+.icons div.img{
 	float: left;
 	margin:5px;
 }
 
 .menu {
 	min-height:20px;
-	background:red;
-	float:right;
+	width:80%;
+	float:left;
+	margin:20px 0% 0px  10%;
+}
+.menu ul {
+	padding: 0px;
+	margin: 0px;
 }
 .menu ul li {
 	float:left;
-	margin:0px 10px 0px 0px;
+	font-size:20px;
+	margin:0px 2% 0px 0px;
+}
+.menu ul li a{
+	float:left;
+	margin:5px 0px 0px 0px;
+	color:black;
+	text-decoration:none;
+	font-size:14px;
+	font-family:Myriad Pro Regular;
+}
+.menu ul li a:hover {
+	text-decoration:none;
+	color:red;
 }
 
-.menu ul li a{
-		float:left;
-
-	color:#fff;
-	text-decoration:none;
-	font-size:16px;
+.contact {
+	width:35%;
+	min-height:40px;
+	margin:10px 0px 0px 0px;
+	float:left;
+}
+.contact ul{
+	padding:0px;
+	margin: 0px;
+}
+.contact ul li{
+	color: #a5a5a5;
+	font-size:12px;
+	font-family:Myriad Pro Regular;
+	margin:10px 0px;
+}
+.contact ul :nth-child(1){
+	margin:0px 0px;
+}
+.contact ul li a {
+	color:red;
+}
+.contact ul li a :visited {
+	color:red;
+}
+.phones{
+	color: red;
+	font-size:18px;
 	font-family:Myriad Pro Regular;
 }
 
-
-.contact {
-	width:370px;
-	min-height:60px;
-	background-color:orange;
-	margin:10px 0px 0px 35px;
-	float:left;
-}
-
+/**/
 
 .tech {
 	width:100%;
-	min-height:107px;
-	margin:170px 0 0 0;
-	background: url(../images/bg-tech.png) repeat-x;
+	min-height:120px;
+	float:left;
 }
-
 .t-info {
-	width:95px;
-	min-height:95px;
-	background:red;
+	width:12%;
+	min-height:100px;
 	float:left;
-	margin:0px 20px 0 0;
-	/**/position:relative;
+	margin:10px 0%;
 }
-
-.star {
-	width:30px;
-	min-height:30px;
-	background:yellow;
-	position:absolute;
-	top:-10px;
-	right:-10px;
-	z-index:10;
-	border-radius:15px 5px;
+.t-info-first {
+	width:12%;
+	min-height:100px;
+	float:left;
+	margin:10px 0% 10px 2%;
 }
-
-
 .t-info-last {
-	width:95px;
-	min-height:95px;
-	background:red;
+	width:12%;
+	min-height:100px;
 	float:left;
-	margin:0px 0px 0 0;
+	margin:10px 2% 10px 0%;
 }
-.t-info div.img {
+.t-info-img {
 	width:100%;
 	min-height:80px;
-	background:#000;
+	float:center;
 }
-
-.t-info div.link {
+.t-info-link{
+	min-height:20px;
 	text-align:center;
+}
+.t-info-link a {
+	font-size:12px;
+	font-family:Myriad Pro Regular;
+	text-decoration:none;
 } 
+.t-info-link :visited {
+	color:black;
+} 
+
+/**/
+
+.blocks{
+	width:100%;
+	min-height:63px;
+	float:left;
+	background: yellow;
+	margin:10px 0%;
+}
+.block a{
+	width:25%;
+	min-height:63px;
+	background: cyan;
+	float:left;
+}
+.block a:hover{
+	background:red;
+} 
+
+/**/
 
 .slider {
 	width:100%;
-	min-height:205px;
-	margin:50px 0 0 0;
-
-}
-
-.bg-l {
-	width:7px;
-	min-height:205px;
+	min-height:200px;
+	margin: 10px 0%;
 	float:left;
-	background: url(../images/slider-bg-l.png) no-repeat;
 }
-
-.bg-c {
-	width:600px;
-	min-height:205px;
-	float:left;
-	background: url(../images/slider-bg-c.png) repeat-x;
+.text {
+	width:200px;
+	min-height:30px;
+	position:absolute;
+	margin:80px 0% 0px 5%;
+	background: #787878;
 }
-
-
-
-.w100-head {
-	width:100%;
-	min-height:120px;
-	position:fixed;
-	top:0px;
-	left:0px;
-	background:url(../images/slider-bg-c.png) repeat-x 0px -90px;
-	z-index:99;
+.text text {
+	color: #ffffff;
+	font-size:18px;
+	font-family:Myriad Pro Regular;
+	
 }
-
-.top {
+.nav {
 	width:50px;
-	min-height:50px;
-	background:red;
-	position:fixed;
-	right:20px;
-	bottom:20px;
+	min-height:10px;
+	position:absolute;
+	margin:170px 0% 0px 450px;
+}
+.nav div a{
+	width: 10px;
+	min-height:10px;
+	background: white;
+	float:left;
+	margin: 0px 1px;
+}
+.nav div a:hover{
+	background: red;
 }
 
+/**/
 
+.body-text{
+	width:100%;
+	min-height:400px;
+	margin: 10px 0%;
+	float:left;
+}
+.news{
+	width:28%;
+	margin: 0px 1%;
+	float:left;
+}
+.new-mid{
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
+	border-color:#a5a5a5;
+	margin: 10px 0%;
+}
+.about{
+	width:70%;
+	float:left;
+}
+.title-text{
+	color: black;
+	font-size:14pt;
+	font-family:Myriad Pro Regular;
+}
+.title-date-text{
+	color: red;
+	font-size:12pt;
+	font-family:Myriad Pro Regular;
+}
+.main-text{
+	color: black;
+	font-size:12pt;
+	font-family:Myriad Pro Regular;
+}
+.main-text ul li{
+	color: red;
+	color-span: black;
+}
+.link-text a{
+	color: black;
+	font-size:12pt;
+	font-family:Myriad Pro Regular;
+	text-decoration:underline;
+}
+.link-text a:visited{
+	color: black;
+}
+.link-text a:hover{
+	color: red;
+}
 
+/**/
 
+@media all and (min-width:640px) and (max-width:960px) {
+	
+	.container {
+		width:100%;
+	}
+	
+	.logo, .top-menu, .contact {
+		width:96%;
+		text-align:center;
+		margin: 10px 2%;
+	}
+	
+	.top-menu {
+		display:none;
+	}
+	
+	
+}
 
-
+@media all and (min-width:240px) and (max-width:639px) {
+	
+	.container {
+		width:100%;
+	}
+	
+	.logo, .top-menu, .contact {
+		width:96%;
+		text-align:center;
+		margin: 10px 2%;
+	}
+	
+	.top-menu {
+		display:none;
+	}
+	
+	
+}
 
