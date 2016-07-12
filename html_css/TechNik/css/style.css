@@ -146,17 +146,62 @@
 	width:100%;
 	min-height:63px;
 	float:left;
-	background: yellow;
 	margin:10px 0%;
 }
-.block a{
+.block-rent a{
 	width:25%;
 	min-height:63px;
-	background: cyan;
 	float:left;
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/spec_37.png);
+	background-position: center;
+	background-repeat: no-repeat;
 }
-.block a:hover{
-	background:red;
+.block-rent a:hover{
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/vibor_37.png);
+	background-position: center;
+	background-repeat: no-repeat;
+} 
+
+.block-service a{
+	width:25%;
+	min-height:63px;
+	float:left;
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/spec_39.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.block-service a:hover{
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/vibor_39.png);
+	background-position: center;
+	background-repeat: no-repeat;
+} 
+
+.block-spare-parts a{
+	width:25%;
+	min-height:63px;
+	float:left;
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/spec_41.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.block-spare-parts a:hover{
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/vibor_41.png);
+	background-position: center;
+	background-repeat: no-repeat;
+} 
+
+.block-financial-decisions a{
+	width:25%;
+	min-height:63px;
+	float:left;
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/spec_43.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.block-financial-decisions a:hover{
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/vibor_43.png);
+	background-position: center;
+	background-repeat: no-repeat;
 } 
 
 /**/
@@ -172,13 +217,23 @@
 	min-height:30px;
 	position:absolute;
 	margin:80px 0% 0px 5%;
-	background: #787878;
 }
 .text text {
 	color: #ffffff;
 	font-size:18px;
 	font-family:Myriad Pro Regular;
 	
+}
+.text text ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.text text ul li{
+	float:left;
+	margin:3px 0%;
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/spec_53.png);
+	background-repeat: round;
 }
 .nav {
 	width:50px;
@@ -235,6 +290,9 @@
 	font-size:12pt;
 	font-family:Myriad Pro Regular;
 }
+.main-text ul{
+	color: red;
+}
 .link-text a{
 	color: black;
 	font-size:12pt;
@@ -248,6 +306,161 @@
 	color: red;
 }
 
+/**/
+
+.logos{
+	width:100%;
+	min-height:60px;
+	float:left;
+	margin:10px 0%;
+}
+.logo-a a{
+	width:12%;
+	min-height:60px;
+	margin:0px 1%;
+	float:left;
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/spec_76.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.logo-a a:hover{
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/vibor_76.png);
+	background-position: center;
+	background-repeat: no-repeat;
+} 
+
+.logo-b a{
+	width:12%;
+	min-height:60px;
+	margin:0px 1%;
+	float:left;
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/spec_64.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.logo-b a:hover{
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/vibor_64.png);
+	background-position: center;
+	background-repeat: no-repeat;
+} 
+
+.logo-c a{
+	width:12%;
+	min-height:60px;
+	margin:0px 1%;
+	float:left;
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/spec_66.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.logo-c a:hover{
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/vibor_66.png);
+	background-position: center;
+	background-repeat: no-repeat;
+} 
+
+.logo-d a{
+	width:12%;
+	min-height:60px;
+	margin:0px 1%;
+	float:left;
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/spec_73.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.logo-d a:hover{
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/vibor_73.png);
+	background-position: center;
+	background-repeat: no-repeat;
+} 
+
+.logo-i a{
+	width:12%;
+	min-height:60px;
+	margin:0px 1%;
+	float:left;
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/spec_61.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.logo-i a:hover{
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/vibor_61.png);
+	background-position: center;
+	background-repeat: no-repeat;
+} 
+
+.logo-f a{
+	width:14%;
+	min-height:60px;
+	margin:0px 1%;
+	float:left;
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/spec_71.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.logo-f a:hover{
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/vibor_71.png);
+	background-position: center;
+	background-repeat: no-repeat;
+} 
+
+.logo-g a{
+	width:12%;
+	min-height:60px;
+	margin:0px 1%;
+	float:left;
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/spec_68.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.logo-g a:hover{
+	background-image: url(D:/Egor/GitHub/Homeworks/html_css/TechNik/images/vibor_68.png);
+	background-position: center;
+	background-repeat: no-repeat;
+} 
+
+/**/
+
+.info{
+	width:100%;
+	min-height:100px;
+	float:left;
+	margin:10px 0%;
+}
+.info-title{
+	color: #a5a5a5;
+	font-size:12px;
+	font-family:Myriad Pro Regular;
+	float:left;
+}
+.info-title a{
+	color: #a5a5a5;
+	text-decoration:underline;
+}
+.info-title a:hover{
+	color: red;
+}
+.info-title a:visited{
+	color: #a5a5a5;
+}
+.info-mailn{
+	color: #a5a5a5;
+	font-size:12px;
+	font-family:Myriad Pro Regular;
+	float:left;
+}
+.info-mailn a{
+	
+}
+.info-mailn a{
+	
+}
+.info-mailn a{
+	
+}
+.info-first{
+	
+}
 /**/
 
 @media all and (min-width:640px) and (max-width:960px) {
