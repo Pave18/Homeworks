@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw13_CodeFirst.Game", "hw13_CodeFirst.Game\hw13_CodeFirst.Game.csproj", "{09E14A1D-5FDE-4F19-9735-5663D275FC6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw13_CodeFirst.DB", "hw13_CodeFirst.DB\hw13_CodeFirst.DB.csproj", "{500E938D-50AF-4E4F-B27B-8DA75EC6A86E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09E14A1D-5FDE-4F19-9735-5663D275FC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09E14A1D-5FDE-4F19-9735-5663D275FC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09E14A1D-5FDE-4F19-9735-5663D275FC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09E14A1D-5FDE-4F19-9735-5663D275FC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{500E938D-50AF-4E4F-B27B-8DA75EC6A86E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500E938D-50AF-4E4F-B27B-8DA75EC6A86E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500E938D-50AF-4E4F-B27B-8DA75EC6A86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500E938D-50AF-4E4F-B27B-8DA75EC6A86E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
