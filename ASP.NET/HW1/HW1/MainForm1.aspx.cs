@@ -9,12 +9,12 @@ namespace HW1
 {
     public partial class MainForm1 : System.Web.UI.Page
     {
-        public List<string> LProducts = new List<string>() { "Product1", "Product2", "Product3", "Product4" };
-        public List<string> LBasket = new List<string>();
-
         protected void Page_Load(object sender, EventArgs e)
         {
-            UpdateListBoxs();
+            if (!IsPostBack)
+            {
+                UpdateListBoxs();
+            }
         }
 
         private void UpdateListBoxs()
@@ -22,12 +22,12 @@ namespace HW1
             ListBoxPoducts.Items.Clear() ;
             ListBoxBasket.Items.Clear();
 
-            foreach (var item in LProducts)
+            foreach (var item in Lists.LProducts)
             {
                 ListBoxPoducts.Items.Add(item);
             }
 
-            foreach (var item in LBasket)
+            foreach (var item in Lists.LBasket)
             {
                 ListBoxBasket.Items.Add(item);
             }
@@ -38,9 +38,9 @@ namespace HW1
 
            foreach (ListItem item in ListBoxPoducts.Items)
             {
-                LBasket.Add(item.ToString());   
+                Lists.LBasket.Add(item.ToString());   
             }
-            LProducts.Clear();
+            Lists.LProducts.Clear();
             UpdateListBoxs();
         }
 
@@ -50,8 +50,8 @@ namespace HW1
             {
                 if (item.Selected)
                 {
-                    LBasket.Add(item.ToString());
-                    LProducts.Remove(item.ToString());
+                    Lists.LBasket.Add(item.ToString());
+                    Lists.LProducts.Remove(item.ToString());
                 }
             }
             UpdateListBoxs();
@@ -62,9 +62,9 @@ namespace HW1
 
             foreach (ListItem item in ListBoxBasket.Items)
             {
-                LProducts.Add(item.ToString());
+                Lists.LProducts.Add(item.ToString());
             }
-            LBasket.Clear();
+            Lists.LBasket.Clear();
             UpdateListBoxs();
         }
 
@@ -74,8 +74,8 @@ namespace HW1
             {
                 if (item.Selected)
                 {
-                    LProducts.Add(item.ToString());
-                    LBasket.Remove(item.ToString());
+                    Lists.LProducts.Add(item.ToString());
+                    Lists.LBasket.Remove(item.ToString());
                 }
             }
             UpdateListBoxs();

@@ -108,11 +108,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MainForm1.aspx" />
-    <Content Include="scripts\ai.0.22.19-build00125.js" />
-    <Content Include="scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lists.cs" />
     <Compile Include="MainForm1.aspx.cs">
       <DependentUpon>MainForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
