@@ -1,12 +1,13 @@
 package com.gpsolutions;
 
 public class SumDamage {
-    int bolts;
-    int boltsPercent;
-    int boltsPrice;
-    int nuts;
-    int nutsPercent;
-    int nutsPrice;
+    private int bolts;
+    private int boltsPercent;
+    private int boltsPrice;
+    private int nuts;
+    private int nutsPercent;
+    private int nutsPrice;
+    private int result;
 
     public SumDamage(int bolts, int boltsPercent, int boltsPrice, int nuts, int nutsPercent, int nutsPrice) {
         this.bolts = bolts;
@@ -18,8 +19,7 @@ public class SumDamage {
     }
 
     public int Total() {
-        int result = 0;
-
+        result = 0;
         if (CheckValues(this.bolts, this.boltsPercent, this.boltsPrice)
                 && CheckValues(this.nuts, this.nutsPercent, this.nutsPrice)) {
 
@@ -36,13 +36,10 @@ public class SumDamage {
         int difference = (this.bolts * (100 - this.boltsPercent) / 100) - (this.nuts * (100 - this.nutsPercent) / 100);
 
         if (difference > 0) {
-            System.out.println(">");
-            return 0;
+            return (difference * this.boltsPrice);
         } else if (difference < 0) {
-            System.out.println("<");
             return ((difference * -1) * this.nutsPrice);
         } else {
-            System.out.println("=");
             return 0;
         }
     }
