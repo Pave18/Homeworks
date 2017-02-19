@@ -18,21 +18,21 @@ public class SumDamage {
         this.nutsPrice = nutsPrice;
     }
 
-    public int Total() {
+    public int total() {
         result = 0;
-        if (CheckValues(this.bolts, this.boltsPercent, this.boltsPrice)
-                && CheckValues(this.nuts, this.nutsPercent, this.nutsPrice)) {
+        if (checkValues(this.bolts, this.boltsPercent, this.boltsPrice)
+                && checkValues(this.nuts, this.nutsPercent, this.nutsPrice)) {
 
             result += this.bolts * this.boltsPercent / 100 * this.boltsPrice;
             result += this.nuts * this.nutsPercent / 100 * this.nutsPrice;
-            result += PriceDifference();
+            result += priceDifference();
 
             return result;
         }
         return result;
     }
 
-    private int PriceDifference() {
+    private int priceDifference() {
         int difference = (this.bolts * (100 - this.boltsPercent) / 100) - (this.nuts * (100 - this.nutsPercent) / 100);
 
         if (difference > 0) {
@@ -44,20 +44,21 @@ public class SumDamage {
         }
     }
 
-    private boolean CheckValues(int boltsAndNuts, int percent, int price) {
+    private boolean checkValues(int boltsAndNuts, int percent, int price) {
         int multiplicity = 100;
         int minBoltsAndNuts = 100;
         int maxBoltsAndNuts = 30000;
         int minPercentage = 0;
         int maxPercentage = 100;
+        int minPrice = 1;
         int maxPrice = 100;
+
 
         if (boltsAndNuts % multiplicity == 0
                 && boltsAndNuts >= minBoltsAndNuts
                 && boltsAndNuts <= maxBoltsAndNuts) {
             if (percent >= minPercentage
                     && percent <= maxPercentage) {
-                int minPrice = 1;
                 if (price >= minPrice
                         && price <= maxPrice) {
                     return true;

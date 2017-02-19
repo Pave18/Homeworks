@@ -14,7 +14,7 @@ public class ReportOnDamage {
         sumDamage = new SumDamage(valuesFromTxt.get(0), valuesFromTxt.get(1), valuesFromTxt.get(2),
                 valuesFromTxt.get(3), valuesFromTxt.get(4), valuesFromTxt.get(5));
 
-        write("OUTPUT.TXT", String.valueOf(sumDamage.Total()));
+        write("OUTPUT.TXT", String.valueOf(sumDamage.total()));
     }
 
     private static List<Integer> read(String fileName) throws FileNotFoundException {
