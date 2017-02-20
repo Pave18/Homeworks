@@ -18,7 +18,7 @@ public class ReportOnDamage {
     }
 
     private static List<Integer> read(String fileName) throws FileNotFoundException {
-        List<Integer> li = new ArrayList<Integer>();
+        List<Integer> integerList = new ArrayList<Integer>();
 
         File file = new File(fileName);
 
@@ -32,7 +32,7 @@ public class ReportOnDamage {
                 while ((s = in.readLine()) != null) {
                     String[] tmp_arr = (s.split(" "));
                     for (int i = 0; i < tmp_arr.length; ++i) {
-                        li.add(Integer.parseInt(tmp_arr[i]));
+                        integerList.add(Integer.parseInt(tmp_arr[i]));
                     }
                 }
             } finally {
@@ -41,7 +41,7 @@ public class ReportOnDamage {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        return li;
+        return integerList;
     }
 
     private static void exists(String fileName) throws FileNotFoundException {
