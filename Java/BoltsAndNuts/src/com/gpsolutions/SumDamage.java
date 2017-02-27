@@ -54,6 +54,7 @@ public class SumDamage {
         int maxPrice = 100;
 
 
+
         if (boltsAndNuts % multiplicity == 0
                 && boltsAndNuts >= minBoltsAndNuts
                 && boltsAndNuts <= maxBoltsAndNuts) {
